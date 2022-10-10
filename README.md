@@ -15,7 +15,7 @@
 2. Run `brew install allure`
 
 ## RUNNING TESTS
-`behave` command will run all the feature files with no allure report generated.
-`behave <feature file> —tags=smoke` will run a specific feature file with test cases having specified tag (in this case: smoke)
-`behave -f allure_behave.formatter:AllureFormatter -o <allure_report_folder>` will generate reports in Json format in specified Allure Report folder.
-`allure serve <allure_report_folder>` will kick off a browser server instance and convert JSON format to HTML reports with graphs, logs etc.
+1. `behave` command will run all the feature files with no allure report generated.
+2. `behave <feature file> —tags=smoke` will run a specific feature file with test cases having specified tag (in this case: smoke)
+3. `behave -f allure_behave.formatter:AllureFormatter -o <allure_report_folder>` will generate reports in Json format in specified Allure Report folder.
+4. `allure serve <allure_report_folder>` will kick off a browser server instance and convert JSON format to HTML reports with graphs, logs etc.
